@@ -1,6 +1,3 @@
-'use strict';
-
-
 
 /**
  * navbar toggle
@@ -15,6 +12,7 @@ const elemArr = [navCloseBtn, overlay, navOpenBtn];
 
 for (let i = 0; i < elemArr.length; i++) {
   elemArr[i].addEventListener("click", function () {
+    console.log('Nav Open button clicked!');
     navbar.classList.toggle("active");
     overlay.classList.toggle("active");
   });
