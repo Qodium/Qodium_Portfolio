@@ -444,6 +444,7 @@ body {
 .about-text {
   font-size: var(--fs-8);
   margin-block-end: 20px;
+  color: rgb(175, 209, 239);
 }
 
 .stats-list {
@@ -462,10 +463,12 @@ body {
   color: var(--st-patricks-blue);
   font-size: var(--fs-2);
   font-weight: var(--fw-700);
+   color: rgb(13, 84, 147);
 }
 
 .stats-text {
   font-size: var(--fs-8);
+  color: rgb(175, 209, 239);
 }
 
 
@@ -521,11 +524,13 @@ body {
 .service-card .title {
   text-align: center;
   margin-block-end: 15px;
+  color: rgb(23, 100, 168);
 }
 
 .service-card .text {
   text-align: center;
   margin-block-end: 20px;
+  color: rgb(175, 209, 239);
 }
 
 .service-card .card-btn {
@@ -577,6 +582,11 @@ body {
 
 .features-card .title {
   margin-block-end: 10px;
+  color: rgb(23, 100, 168);
+}
+
+.features-card .text{
+  color: rgb(175, 209, 239);
 }
 
 .features-banner {
@@ -642,6 +652,7 @@ body {
 
 .blog-card .text {
   margin-block-end: 15px;
+  color: rgb(175, 209, 239);
 }
 
 .blog-card .meta {
